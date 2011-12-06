@@ -1,2 +1,1 @@
-classes  opt/kohana3.2/modules/amqp
-config   opt/kohana3.2/modules/amqp
+system  opt/kohana3.1
