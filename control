@@ -9,3 +9,43 @@ Package: kohana3.1-core
 Architecture: all
 Depends: ${misc:Depends}
 Description: Kohana Core Files
+
+Package: kohana3.1-mod-auth
+Architecture: all
+Depends: kohana3.1-core, ${misc:Depends}
+Description: Kohana Auth Module
+
+Package: kohana3.1-mod-cache
+Architecture: all
+Depends: kohana3.1-core, ${misc:Depends}
+Description: Kohana Cache Module
+
+Package: kohana3.1-mod-codebench
+Architecture: all
+Depends: kohana3.1-core, ${misc:Depends}
+Description: Kohana CodeBench Module
+
+Package: kohana3.1-mod-database
+Architecture: all
+Depends: kohana3.1-core, ${misc:Depends}
+Description: Kohana Database Module
+
+Package: kohana3.1-mod-image
+Architecture: all
+Depends: kohana3.1-core, ${misc:Depends}
+Description: Kohana Image Module
+
+Package: kohana3.1-mod-orm
+Architecture: all
+Depends: kohana3.1-core, kohana3.1-mod-database, ${misc:Depends}
+Description: Kohana ORM Module
+
+Package: kohana3.1-mod-unittest
+Architecture: all
+Depends: kohana3.1-core, ${misc:Depends}
+Description: Kohana UnitTest Module
+
+Package: kohana3.1-mod-userguide
+Architecture: all
+Depends: kohana3.1-core, ${misc:Depends}
+Description: Kohana User Guide Module
