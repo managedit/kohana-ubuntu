@@ -1,51 +1,51 @@
-Source: kohana3.1
+Source: kohana3.2
 Section: php
 Priority: extra
 Maintainer: Kiall Mac Innes <kiall@managedit.ie>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.2
 
-Package: kohana3.1-core
+Package: kohana3.2-core
 Architecture: all
 Depends: ${misc:Depends}
 Description: Kohana Core Files
 
-Package: kohana3.1-mod-auth
+Package: kohana3.2-mod-auth
 Architecture: all
-Depends: kohana3.1-core, ${misc:Depends}
+Depends: kohana3.2-core, ${misc:Depends}
 Description: Kohana Auth Module
 
-Package: kohana3.1-mod-cache
+Package: kohana3.2-mod-cache
 Architecture: all
-Depends: kohana3.1-core, ${misc:Depends}
+Depends: kohana3.2-core, ${misc:Depends}
 Description: Kohana Cache Module
 
-Package: kohana3.1-mod-codebench
+Package: kohana3.2-mod-codebench
 Architecture: all
-Depends: kohana3.1-core, ${misc:Depends}
+Depends: kohana3.2-core, ${misc:Depends}
 Description: Kohana CodeBench Module
 
-Package: kohana3.1-mod-database
+Package: kohana3.2-mod-database
 Architecture: all
-Depends: kohana3.1-core, ${misc:Depends}
+Depends: kohana3.2-core, ${misc:Depends}
 Description: Kohana Database Module
 
-Package: kohana3.1-mod-image
+Package: kohana3.2-mod-image
 Architecture: all
-Depends: kohana3.1-core, ${misc:Depends}
+Depends: kohana3.2-core, ${misc:Depends}
 Description: Kohana Image Module
 
-Package: kohana3.1-mod-orm
+Package: kohana3.2-mod-orm
 Architecture: all
-Depends: kohana3.1-core, kohana3.1-mod-database, ${misc:Depends}
+Depends: kohana3.2-core, kohana3.2-mod-database, ${misc:Depends}
 Description: Kohana ORM Module
 
-Package: kohana3.1-mod-unittest
+Package: kohana3.2-mod-unittest
 Architecture: all
-Depends: kohana3.1-core, ${misc:Depends}
+Depends: kohana3.2-core, ${misc:Depends}
 Description: Kohana UnitTest Module
 
-Package: kohana3.1-mod-userguide
+Package: kohana3.2-mod-userguide
 Architecture: all
-Depends: kohana3.1-core, ${misc:Depends}
+Depends: kohana3.2-core, ${misc:Depends}
 Description: Kohana User Guide Module
